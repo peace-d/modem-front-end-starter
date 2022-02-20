@@ -1,0 +1,13 @@
+$primary: #178F6BFF;
+$secondary: lighten($primary, 30%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary;
+  color:$secondary;
+}
